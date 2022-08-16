@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: #131313;
+}
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.media-picture {
+    height: 400px;
+    background-image: url(../img/o_lobo_de_wall_street_capa.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.review-score {
+    background-color: #e6bd09;
+    color: white;
+    padding: 12px;
+}
+h2 {
+    color: steelblue;
+}
+p {
+    color: #bdbdbd;
+}
+a {
+    color: #e6bd09;
+}
