@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 30px;
+    background-color: #222;
+
+}
+.topo span {
+    margin-left: 15px;
+}
+.area-select {
+    margin-right: 20px;
+}
+.area-select select {
+    background: none;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+}
+header .area-logo {
+    color: #fff;
+    letter-spacing: -3px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.area-logo span {
+    color: #3C2313;
+}
+header nav ul{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+header nav ul li{
+    list-style: none;
+    margin-right: 18px;
+    font-size: 1.1em;
+    
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+main .sect-um {
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.sect-um .slider-textos {
+    display: flex;
+    margin-right: 30px;
+    color: #3C2313;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sect-um .slider-textos h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    font-weight: 300;
+    border-radius: 12px;
+    color: #3C2313;
+}
+.sect-um .slider-textos p {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.sect-um .slider-textos button {
+    margin-top: 25px;
+    width: 200px;
+    padding: 15px;
+    font-size: 1.1em;
+    font-weight: 600;
+    outline: none;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    background-color: #F0A83E;
+}
+.sect-um .slider-textos button a {
+    text-decoration: none;
+    color: #fff;
+}
+main .sect-dois {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.sect-dois .links {
+    display: flex;
+    flex-direction: column;
+}
+.sect-dois .links img{
+    margin-left: 90px;
+}
+.sect-dois .links h2 {
+    font-size: 2em;
+    color: #3C2313;
+}
+.sect-dois .links ul li{
+    margin-top: 20px;
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+}
+.sect-dois .links ul li a {
+    color: rgb(159, 156, 156);
+    text-decoration: none;
+}
+main .sect-tres {
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+main .sect-tres .produtos {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.sect-tres .produtos .churrasco {
+    background-color: #FBFAF6;
+    margin-left: 10px;
+}
+.sect-tres .produtos .churrasco p{
+    margin-bottom: 15px;
+    color: #3C2313;
+    font-weight: 600;
+    text-align: center;
+}
+.sect-tres .produtos .churrasco p.preco {
+    margin-top: 15px;
+    color: #F0A83E;
+}
+.sect-quatro {
+    margin: 15px 0 15px 0; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.sect-quatro h2 {
+    color: #3C2313;
+}
+.sect-quatro .forms {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.sect-quatro .forms input {
+    border: none;
+    background-color: #3C2313;
+    border-radius: 12px;
+    width: 300px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.sect-quatro .envio button{
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 15px;
+}
+.sect-quatro .envio button.limpar {
+    background-color: #8A8787;
+}
+.sect-quatro .envio button.enviar {
+    background-color: #F0A83E;
+}
+footer {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+footer .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F0A83E;
+}
+footer .email .txt h2 {
+    color: #fff;
+}
+footer .email .form input {
+    margin-right: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+}
+footer .email .form button {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #3C2313;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    width: 120px;
+    margin: 12px;
+}
+footer .contatos{
+    padding: 15px;
+    display: flex;
+    background-color: #3C2313;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+footer .contatos .listas ul li {
+    list-style: none;
+    margin-top: 10px;
+    color: #fff;
+}
+footer .contatos .listas ul li h3{
+    font-size: 1.4em;
+}
+footer .contatos .listas ul li p{
+    font-size: 15px;
+    text-align: center;
+    color: #8A8787;
+}
+footer .contatos .area-logo h2{
+    color: #fff;
+}
+footer .contatos .area-logo h2 span{
+    color: #fff;
+}
+footer .direitos {
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
